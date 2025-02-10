@@ -1,0 +1,261 @@
+name: dbs-s-eegnet
+channels:
+  - numba
+  - pytorch
+  - nvidia
+  - conda-forge
+  - anaconda
+  - defaults
+dependencies:
+  - _libgcc_mutex=0.1 # [linux]
+  - _openmp_mutex=5.1 # [linux]
+  - asttokens=2.4.1
+  - atk-1.0=2.36.0
+  - blas=1.0
+  - boltons=23.0.0
+  - boost-cpp=1.82.0
+  - bottleneck=1.3.5
+  - brotli=1.0.9
+  - brotli-bin=1.0.9
+  - brotlipy=0.7.0
+  - bzip2=1.0.8
+  - c-ares=1.19.1
+  - ca-certificates=2024.7.2
+  - cairo=1.16.0
+  - certifi=2024.7.4
+  - cffi=1.15.1
+  - charset-normalizer=2.0.4
+  - comm=0.2.1
+  - conda-content-trust=0.2.0
+  - conda-package-handling=2.2.0
+  - conda-package-streaming=0.9.0
+  - contourpy=1.0.5
+  - cryptography=41.0.3
+  - cuda-cudart=11.8.89
+  - cuda-cupti=11.8.87
+  - cuda-libraries=11.8.0
+  - cuda-nvrtc=11.8.89
+  - cuda-nvtx=11.8.86
+  - cuda-runtime=11.8.0
+  - cycler=0.11.0
+  - debugpy=1.6.7
+  - decorator=5.1.1
+  - exceptiongroup=1.2.0
+  - executing=2.0.1
+  - expat=2.6.2
+  - ffmpeg=4.3
+  - filelock=3.9.0
+  - font-ttf-dejavu-sans-mono=2.37
+  - font-ttf-inconsolata=2.001
+  - font-ttf-source-code-pro=2.030
+  - font-ttf-ubuntu=0.83
+  - fontconfig=2.14.1 # [linux]
+  - fonts-anaconda=1
+  - fonts-conda-ecosystem=1
+  - fonttools=4.25.0
+  - freetype=2.12.1
+  - fribidi=1.0.10
+  - gdk-pixbuf=2.42.10 # [linux]
+  - giflib=5.2.1
+  - glib=2.78.4
+  - glib-tools=2.78.4
+  - gmp=6.2.1
+  - gmpy2=2.1.2
+  - gnutls=3.6.15
+  - gobject-introspection=1.78.1
+  - graphite2=1.3.14
+  - graphviz=2.50.0
+  - gtk2=2.24.33 # [linux]
+  - gts=0.7.6
+  - harfbuzz=4.3.0
+  - icu=73.1
+  - idna=3.4
+  - importlib-metadata=7.0.1
+  - importlib_metadata=7.0.1
+  - intel-openmp=2023.1.0
+  - ipykernel=6.29.0
+  - ipython=8.20.0
+  - jedi=0.19.1
+  - jinja2=3.1.2
+  - joblib=1.2.0
+  - jpeg=9e
+  - jsonpatch=1.32
+  - jsonpointer=2.1
+  - jupyter_client=8.6.0
+  - jupyter_core=5.7.1
+  - kiwisolver=1.4.4
+  - krb5=1.20.1
+  - lame=3.100
+  - lcms2=2.12
+  - ld_impl_linux-64=2.38 # [linux]
+  - lerc=3.0
+  - libboost=1.82.0
+  - libbrotlicommon=1.0.9
+  - libbrotlidec=1.0.9
+  - libbrotlienc=1.0.9
+  - libcublas=11.11.3.6 # [linux]
+  - libcufft=10.9.0.58 # [linux]
+  - libcufile=1.7.2.10
+  - libcurand=10.3.3.141 # [linux]
+  - libcurl=8.7.1
+  - libcusolver=11.4.1.48
+  - libcusparse=11.7.5.86
+  - libdeflate=1.17 # [linux]
+  - libedit=3.1.20230828
+  - libev=4.33 # [linux]
+  - libffi=3.4.4 # [linux]
+  - libgcc-ng=11.2.0 # [linux]
+  - libgd=2.3.3
+  - libgfortran-ng=11.2.0 # [linux]
+  - libgfortran5=11.2.0 # [linux]
+  - libglib=2.78.4
+  - libgomp=11.2.0 # [linux]
+  - libiconv=1.16 # [linux]
+  - libidn2=2.3.4 # [linux]
+  - libjpeg-turbo=2.0.0
+  - libnghttp2=1.57.0
+  - libnpp=11.8.0.86
+  - libnvjpeg=11.9.0.86
+  - libpng=1.6.39
+  - librsvg=2.54.4
+  - libsodium=1.0.18
+  - libssh2=1.11.0
+  - libstdcxx-ng=11.2.0 # [linux]
+  - libtasn1=4.19.0
+  - libtiff=4.5.1
+  - libtool=2.4.6
+  - libunistring=0.9.10
+  - libuuid=1.41.5 # [linux]
+  - libwebp=1.3.2
+  - libwebp-base=1.3.2
+  - libxcb=1.15
+  - libxml2=2.10.4 # [linux]
+  - llvm-openmp=14.0.6 # [linux or osx]
+  - llvmlite=0.41.1
+  - lz4-c=1.9.4
+  - markupsafe=2.1.1
+  - matplotlib-base=3.7.2
+  - matplotlib-inline=0.1.6
+  - mkl=2023.1.0
+  - mkl-service=2.4.0
+  - mkl_fft=1.3.8
+  - mkl_random=1.2.4
+  - mpc=1.1.0
+  - mpfr=4.0.2
+  - mpmath=1.3.0
+  - munkres=1.1.4
+  - ncurses=6.4
+  - nest-asyncio=1.6.0
+  - nettle=3.7.3
+  - networkx=3.1
+  - ninja=1.10.2
+  - ninja-base=1.10.2
+  - nspr=4.35
+  - nss=3.89.1
+  - numba=0.58.1
+  - numexpr=2.8.7
+  - numpy=1.26.0
+  - numpy-base=1.26.0
+  - openh264=2.1.1
+  - openjpeg=2.4.0
+  - openssl=3.0.14
+  - packaging=23.1
+  - pandas=2.0.3
+  - pango=1.50.7
+  - parso=0.8.3
+  - pcre2=10.42
+  - pexpect=4.8.0
+  - pickleshare=0.7.5
+  - pillow=10.0.1
+  - pip=23.2.1
+  - pixman=0.40.0
+  - platformdirs=4.1.0
+  - poppler=22.12.0
+  - poppler-data=0.4.11
+  - prompt-toolkit=3.0.42
+  - psutil=5.9.0
+  - ptyprocess=0.7.0
+  - pure_eval=0.2.2
+  - pycosat=0.6.6
+  - pycparser=2.21
+  - pygments=2.17.2
+  - pynvml=11.5.0
+  - pyopenssl=23.2.0
+  - pyparsing=3.0.9
+  - pysocks=1.7.1
+  - python=3.11.5
+  - python-dateutil=2.8.2
+  - python-tzdata=2023.3
+  - python_abi=3.11
+  - pytorch=2.1.0
+  - pytorch-cuda=11.8
+  - pytorch-mutex=1.0
+  - pytz=2023.3.post1
+  - pyyaml=6.0
+  - pyzmq=25.1.2
+  - readline=8.2
+  - requests=2.31.0
+  - ruamel.yaml=0.17.21
+  - scikit-learn=1.2.2
+  - scipy=1.11.3
+  - seaborn=0.12.2
+  - setuptools=68.0.0
+  - six=1.16.0
+  - sqlite=3.41.2
+  - stack_data=0.6.2
+  - sympy=1.11.1
+  - tbb=2021.8.0
+  - threadpoolctl=2.2.0
+  - tk=8.6.12
+  - torchaudio=2.1.0
+  - torchtriton=2.1.0
+  - torchvision=0.16.0
+  - tornado=6.3.3
+  - tqdm=4.65.0
+  - traitlets=5.14.1
+  - truststore=0.8.0
+  - typing_extensions=4.7.1
+  - tzdata=2023c
+  - urllib3=1.26.16
+  - vs2015_runtime  # [win]
+  - vc=14.2  # [win]
+  - wcwidth=0.2.13
+  - wheel=0.41.2
+  - xz=5.4.2
+  - yaml=0.2.5
+  - zeromq=4.3.5
+  - zipp=3.17.0
+  - zlib=1.2.13
+  - zstandard=0.19.0
+  - zstd=1.5.5
+  - pip:
+      - aif360==0.5.0
+      - aiosignal==1.3.1
+      - attrs==23.1.0
+      - bayesian-optimization==1.4.3
+      - click==8.1.7
+      - colorama==0.4.6
+      - coloredlogs==15.0.1
+      - flatbuffers==24.3.25
+      - folktables==0.0.12
+      - frozenlist==1.4.0
+      - fsspec==2023.10.0
+      - humanfriendly==10.0
+      - iniconfig==2.0.0
+      - jsonschema==4.20.0
+      - jsonschema-specifications==2023.11.1
+      - msgpack==1.0.7
+      - onnx==1.16.2
+      - onnx-pytorch==0.1.5
+      - onnxruntime==1.19.0
+      - pluggy==1.5.0
+      - protobuf==4.25.1
+      - pyarrow==14.0.1
+      - pytest==8.3.2
+      - python-graphviz==0.20.3
+      - ray==2.8.0
+      - referencing==0.31.0
+      - rpds-py==0.13.1
+      - scikit-fuzzy==0.5.0
+      - tensorboardx==2.6.2.2
+      - torchviz==0.0.2
