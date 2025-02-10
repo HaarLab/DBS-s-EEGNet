@@ -1,6 +1,6 @@
 # DBS-s-EEGNet
 
-This repository was created to support the publication **Deep Learning-Driven EEG Analysis for Personalized Deep Brain Stimulation Programming in Parkinson's Disease** *(Calvo Peiro et al., 2024)*. It includes the *DBS-s-EEGNet* model implemented in PyTorch, as well as a training pipeline and the post-hoc ablation explainability methods. The code presented here is ready to be deployed with EEG data and labels.
+This repository was created to support the publication **Deep Learning-Driven EEG Analysis for Personalized Deep Brain Stimulation Programming in Parkinson's Disease** *(Calvo Peiro et al., 2024)*. It includes the *DBS-s-EEGNet* model implemented in PyTorch, as well as a training pipeline and the post-hoc ablation explainability methods. The code presented here is ready to be deployed with EEG data and labels. This code was developped by Nicolas Calvo Peiro & Mathias Ramm Haugland, and is now maintained by Nicolas Calvo Peiro (nc619@ic.ac.uk).
 
 The *DBS-s-EEGNet* architecture is a siamese adaption of the EEGNet architecture *(Lawhern et al., 2017)* created to discriminate the changes in brain activity when changing DBS parameters. 
 
@@ -18,9 +18,7 @@ Here is a visual representation of the *DBS-s-EEGNet* architecture and the post-
 </div>
 
 With this pipeline, we achieved an overall accuracy of 78.24% in the classification task of discriminating the changes in brain activity when changing DBS parameters across 4 patients.
-<div align="center">
-<img src="./assets/accuracy_table.png" alt="accuracy-table" width="450"/>
-</div>
+
 With the post-hoc ablation explainability methods, we were able to identify the frequency bands that were most important for the classification task. Examples of the figures you can expect with this code are the following:
 
 <div align="center">
