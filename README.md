@@ -25,7 +25,7 @@ With the post-hoc ablation explainability methods, we were able to identify the 
 <img src="./assets/readme_ablation_figure.png" alt="ablation-figure" width="400"/>
 </div>
 
-Note: this figure is with the random data example provided, for an example of how the figures would look like with real data go check the publication (*Calvo Peiro et al., 2024*)
+Note: this figure is with random data, for an example of how the figures would look like with real data go check the publication (*Calvo Peiro et al., 2024*)
 
 Below you will find more info on the code, indicating how to use this code with your own data and explaining the structure of the repository in detail.
 If you find any errors with the code or have any compatibility issues, please raise an issue on github and we will do our best to assist you.
