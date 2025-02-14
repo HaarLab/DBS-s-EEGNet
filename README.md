@@ -1,6 +1,6 @@
 # DBS-s-EEGNet
 
-This repository was created to support the publication **Deep Learning-Driven EEG Analysis for Personalized Deep Brain Stimulation Programming in Parkinson's Disease** *(<a href="https://doi.org/10.1101/2025.02.11.25321886/">Calvo Peiro et al., 2025</a>)*. It includes the *DBS-s-EEGNet* model implemented in PyTorch, as well as a training pipeline and the post-hoc ablation explainability methods. The code presented here is ready to be deployed with EEG data and labels. This code was developped by Nicolas Calvo Peiro & Mathias Ramm Haugland, and is now maintained by Nicolas Calvo Peiro (nc619@ic.ac.uk).
+This repository was created to support the publication **Deep Learning-Driven EEG Analysis for Personalized Deep Brain Stimulation Programming in Parkinson's Disease** *(<a href="https://doi.org/10.1101/2025.02.11.25321886">Calvo Peiro et al., 2025</a>)*. It includes the *DBS-s-EEGNet* model implemented in PyTorch, as well as a training pipeline and the post-hoc ablation explainability methods. The code presented here is ready to be deployed with EEG data and labels. This code was developped by Nicolas Calvo Peiro & Mathias Ramm Haugland, and is now maintained by Nicolas Calvo Peiro (nc619@ic.ac.uk).
 
 The *DBS-s-EEGNet* architecture is a siamese adaption of the EEGNet architecture *(Lawhern et al., 2017)* created to discriminate the changes in brain activity when changing DBS parameters. 
 
